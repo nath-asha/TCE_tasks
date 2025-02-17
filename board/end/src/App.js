@@ -27,11 +27,14 @@ function App() {
       setSortedLeaderboardData(sortedData);
   };
     
-    
+    const setTopper = (data) => {
+       const topper = sortedData.slice(0,3)
+    }
 
     return (
         <div className="App">
             <h1>Leaderboard</h1>
+            <setToppers toppers={setToppers}/>
             <Leaderboard leaderboardData={sortedLeaderboardData} />
         </div>
     );

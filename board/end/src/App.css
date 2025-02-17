@@ -128,7 +128,7 @@ tr:hover {
 
 
 
-/* .topper {
+.topper {
   margin: 10px;
   border: 10px solid;
   width: 25%;
@@ -147,6 +147,6 @@ tr:hover {
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 100px;
-  /* background-color: rgb(238, 241, 243); */
-  /* scroll-padding-top: 60px;
-}  */
+  background-color: rgb(238, 241, 243);
+  scroll-padding-top: 60px;
+} 

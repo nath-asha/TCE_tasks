@@ -3,7 +3,7 @@ import React from 'react';
 function Leaderboard({ leaderboardData }) {
     return (
         <div>
-        <table>
+        <table class="topper">
             <tbody>
                 {leaderboardData.map((participant) => (
                     <tr key={1}>
