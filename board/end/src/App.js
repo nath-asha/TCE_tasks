@@ -5,6 +5,7 @@ import './App.css';
 function App() {
     const [leaderboardData, setLeaderboardData] = useState([]);
     const [sortedLeaderboardData,setSortedLeaderboardData] = useState([])
+    const [toppers, setToppers] = useState([])
 
     useEffect(() => {
         fetch('/scores.json') 
@@ -16,6 +17,7 @@ function App() {
             })
             .then(data => { setLeaderboardData(data);
                             sortLeaderboard(data);
+                            setToppers(data)
     })
             .catch(error => console.error('Error fetching leaderboard data:', error));
     }, []);
@@ -24,6 +26,8 @@ function App() {
       const sortedData = [...data].sort((a, b) => b.score - a.score); 
       setSortedLeaderboardData(sortedData);
   };
+    
+    
 
     return (
         <div className="App">
