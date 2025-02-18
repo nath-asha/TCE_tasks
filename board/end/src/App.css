@@ -61,7 +61,7 @@ tr:hover {
 
 .toppers-container {
   display: flex; 
-  gap: 20px; 
+  gap: 100px; 
   margin-bottom: 20px; 
   justify-content: center;
  }
