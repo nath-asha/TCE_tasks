@@ -17,7 +17,7 @@ function Leaderboard({ leaderboardData, toppers }) {
         ))}
       </div>
 
-      <h2>Leaderboard</h2>
+      {/* <h2>Leaderboard</h2> */}
       <table>
         <thead>
           <tr>
