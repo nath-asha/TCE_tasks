@@ -58,8 +58,6 @@ function App() {
 
 export default App;
 
-// '''mongodb+srv://nathashais21:d2DyAMy0PZMBeGzw@mov.sa8whmg.mongodb.net/d2DyAMy0PZMBeGzw'''
-
 // import React, { useState, useEffect } from 'react';
 // import Leaderboard from './page/Leaderboard';
 // import './App.css';
