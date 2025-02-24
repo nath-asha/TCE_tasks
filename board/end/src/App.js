@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Leaderboard from './page/Leaderboard';
 import './App.css';
+// import Image from 'react-bootstrap/Image';
 
 function App() {
   const [leaderboardData, setLeaderboardData] = useState([]);
@@ -51,6 +52,7 @@ function App() {
   return (
     <div className="App">
       <h1>Leaderboard</h1>
+      {/* <Image src="Favicon.png" fluid /> */}
       <Leaderboard leaderboardData={sortedLeaderboardData} toppers={toppers} />
     </div>
   );
